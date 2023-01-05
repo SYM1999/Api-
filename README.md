@@ -5,8 +5,8 @@
 
 `baseURL: "http://localhost:8888"`  //设置统一的请求前缀
 
-repeat_requst_cancel: true,      //是否开启重复取消请求  
-loading: false                    //是否开启loading效果
+`repeat_requst_cancel: true`      //是否开启重复取消请求  
+`loading: false`                    //是否开启loading效果
 
 ```javascript
  /**
