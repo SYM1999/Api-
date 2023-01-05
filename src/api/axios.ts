@@ -12,6 +12,7 @@ interface customOptions {
     repeat_requst_cancel: Boolean,
     loading:Boolean
 }
+
 interface loadingOptions{
     target?:string,
     body?:Boolean,
