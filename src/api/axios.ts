@@ -154,10 +154,7 @@ function closeLoading(_options:customOptions){
     }
 }
 
-/**
- * 处理异常
- * @param {*} error 
- */
+
  /**
  * 处理异常
  * @param {*} error 
