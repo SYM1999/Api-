@@ -3,11 +3,12 @@
 # 对axios的二次封装
 主要代码在src/api/axios.ts文件里面
 
-baseURL: "http://localhost:8888",  //设置统一的请求前缀
+`baseURL: "http://localhost:8888"`  //设置统一的请求前缀
 
 repeat_requst_cancel: true,      //是否开启重复取消请求  
 loading: false                    //是否开启loading效果
 
+```javascript
  /**
  * 处理异常
  * @param {*} error 
@@ -42,3 +43,4 @@ function httpErrorStatusHandle(error) {
       message
     })
   }
+```
